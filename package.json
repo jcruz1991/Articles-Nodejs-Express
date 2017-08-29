@@ -1,0 +1,17 @@
+{
+  "name": "articles",
+  "version": "1.0.0",
+  "description": "Simple knowledge based app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Julio Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9",
+    "pug": "^2.0.0-rc.3"
+  }
+}
