@@ -11,6 +11,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Parse application/json
 app.use(bodyParser.json());
 
+// Set public folder
+app.use(express.static(path.join(__dirname, 'public')));
 
 // DB Models
 let Article = require('./models/article');
